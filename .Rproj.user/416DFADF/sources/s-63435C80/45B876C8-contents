@@ -1,0 +1,8 @@
+library(dslabs)
+library(tidyverse)
+
+getwd()
+url<- "C:/Users/Manureva/Desktop/HARVARD/git hub migration/000 Probability.R"
+dest_file <- "git hub migration/000 Probability.R"
+download.file(url, destfile=dest_file)
+git remote add origin https://github.com/rmonterof/HarvardX-PH125.1x-R-Basics.git
